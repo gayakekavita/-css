@@ -1,0 +1,16 @@
+/*
+The width property in CSS is used to set the width to the text, images. The width can be assign to the text and images in the form of pixels(px), percentage(%), centimetre(cm) etc. The width property does not contain padding, borders, or margins. The width property is overridden by the min-width & max-width properties. The width property, by default, sets the width for the content area, although if the value of the box-sizing is set to border-box then it will set the width of the border area.
+
+Syntax:
+
+width: auto | value | initial | inherit;
+Note: The width property for the element does not involve the padding, border & margin.
+
+Default Value : Its default value is auto. 
+*/
+
+
+width:auto;
+width:initial;
+width:200px;
+width:10%;
