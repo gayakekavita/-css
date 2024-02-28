@@ -1,0 +1,19 @@
+/* 
+text-decoration=property
+value= 
+ 1.none
+ 2.underline
+ 3.overline
+ 4.line through
+ 
+
+*/
+
+   text-decoration: blue dotted;
+   text-decoration: underline;
+   text-decoration: dashed overline;
+   text-decoration: wavy line-through;
+   text-decoration: none;
+   text-decoration: overline;
+   text-decoration: line-through;
+   text-decoration: solid black dashed underline;
