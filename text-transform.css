@@ -1,0 +1,27 @@
+/*
+
+ CSS Syntax
+text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
+
+
+Property Values
+Value	         Description	
+none	         No capitalization. The text renders as it is. This is default	
+capitalize	   Transforms the first character of each word to uppercase	
+uppercase       Transforms all characters to uppercase	
+lowercase	      Transforms all characters to lowercase	
+initial       	Sets this property to its default value. 
+inherit       	Inherits this property from its parent element
+*/
+
+div.a {
+  text-transform: uppercase;
+}
+
+div.b {
+  text-transform: lowercase;
+}
+
+div.c {
+  text-transform: capitalize;
+}
