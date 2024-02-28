@@ -1,0 +1,30 @@
+/*
+ text-align=property
+
+ value: 
+ 1.left
+ 2.right
+ 3.center
+ 4.start
+ 5.end
+*/
+
+
+body{
+    background-color: blueviolet;
+}
+h1{
+    background-color: white;
+    color:red;
+    text-align: right;
+}
+.para{
+    background-color: green;
+    color:aqua;
+    text-align: left;
+}
+#sp{
+    background-color: brown;
+    color: antiquewhite;
+    text-align: center;
+}
