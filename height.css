@@ -1,0 +1,18 @@
+/*
+The height property is used to set the height of an element. The height property does not contain padding and margin and border of the element. 
+
+Syntax:  
+
+height: auto|length|initial|inherit;
+
+property values:
+
+auto: It is used to set the height property to its default value. If the height property is set to auto then the browser calculates the height of the element.
+length: It is used to set the height of the element in the form of px, cm, etc. The length can not be negative.
+initial: It is used to set the height property to its default value. 
+inherit: It is used to set the height property from its parent element.
+*/
+
+height: 100px;
+height: auto;
+height: initial;
