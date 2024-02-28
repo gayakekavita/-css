@@ -1,0 +1,40 @@
+/*
+    property:value
+
+   color:name_of_color;
+*/
+
+h1{
+    color:red;
+}
+.para{
+    color:aqua;
+}
+#sp{
+    color: antiquewhite;
+}
+
+/* html code 
+/*
+<html>
+    <head>
+        <title>
+            
+        </title>
+    </head>
+    <body>
+       <header>
+        <!-- header of web page -->
+        <link rel="stylesheet" href="style.css">
+       </header>
+       <main>
+        
+        <h1> Hello</h1>
+        <p class="para"> Welcome to college</p>
+        <span id="sp"> bcyfe uchenuc cneeun une8d </span>
+       <footer>
+           <!-- Footer of the website-->
+       </footer>
+    </body>
+</html>
+*/
