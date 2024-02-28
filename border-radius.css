@@ -1,0 +1,61 @@
+The `border-radius` property in CSS is used to create rounded corners for an element's border. It allows you to control the curvature of the corners by specifying one to four values for the radii of the quarter circles that make up each corner.
+
+### Syntax:
+
+```css
+element {
+  border-radius: [top-left] [top-right] [bottom-right] [bottom-left];
+}
+```
+
+- **top-left**: Specifies the radius of the top-left corner.
+- **top-right**: Specifies the radius of the top-right corner.
+- **bottom-right**: Specifies the radius of the bottom-right corner.
+- **bottom-left**: Specifies the radius of the bottom-left corner.
+
+### Example:
+
+```css
+.rounded-example {
+  border-radius: 10px; /* All corners have a radius of 10 pixels */
+}
+
+/* Different radii for each corner */
+.custom-rounded-example {
+  border-radius: 15px 10px 20px 5px;
+}
+
+/* Using percentage values */
+.percent-rounded-example {
+  border-radius: 20% 15% 10% 5%;
+}
+```
+
+You can use a single value for a uniform border radius on all corners or provide separate values for each corner to create custom shapes. You can use pixel values, percentage values, or other length units to specify the radii.
+
+### Shorthand:
+
+The `border-radius` property can also be written in a shorthand form:
+
+```css
+element {
+  border-radius: [radius];
+}
+```
+
+This sets the same radius for all four corners. The `border-radius` shorthand can take one, two, three, or four values, similar to the longhand version.
+
+### Example:
+
+```css
+.shorthand-example {
+  border-radius: 12px 8px; /* Top-left and top-right have a radius of 12 pixels, bottom-right and bottom-left have a radius of 8 pixels */
+}
+```
+
+Using the `border-radius` property adds a decorative touch to elements, giving them a smoother and more visually appealing appearance by rounding off their corners.
+
+
+/* when we want to create circles then we set border-radius property as follows:
+   border-radius:50%;
+*/
