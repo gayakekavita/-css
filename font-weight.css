@@ -1,0 +1,23 @@
+/*
+The font-weight property sets how thick or thin characters in text should be displayed.
+*/
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900; /* darker*/
+}
+
+h1{
+   font-weight:200;
+}
+
+h2{
+  font-weight:100;/* lighter*/
+}
