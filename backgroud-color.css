@@ -1,0 +1,20 @@
+/* Backgroud color is used to set backgroud color to html element
+   -by default background color is "white". 
+*/
+
+
+body{
+    background-color: blueviolet;
+}
+h1{
+    background-color: white;
+    color:red;
+}
+.para{
+    background-color: green;
+    color:aqua;
+}
+#sp{
+    background-color: brown;
+    color: antiquewhite;
+}
