@@ -1,0 +1,15 @@
+/* for setting opacity of any color we use 
+ rgba(red,green,blue,alpha);
+ property.
+-- value of alpha varies from 0 to 1.
+-- when we set value of aplha=0 then color is invisible.
+--when we set value of aplha=1 then color is visible.
+*/
+div{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+    background-color: rgba(255,0, 0 ,1);
+}
