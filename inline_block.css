@@ -1,0 +1,40 @@
+/*
+
+<html>
+    <head>
+        <title>
+            
+        </title>
+    </head>
+    <body>
+       <header>
+        <!-- header of web page -->
+        <link rel="stylesheet" href="style.css">
+       </header>
+       <main>
+        <!-- main part of the website -->
+        <div style="background-color: gray;"></div>
+        <div style="background-color:red;"></div>
+        <div style="background-color: blue;"></div>
+       <footer>
+           <!-- Footer of the website-->
+       </footer>
+    </body>
+</html>
+*/
+
+div{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+}
+
+div{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
