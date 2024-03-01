@@ -1,0 +1,90 @@
+property:
+ animation
+
+ -This property is used to set animation to the html element.
+ -We create animation template for it.
+ -Ex:
+ 
+
+div{
+    height:300px;
+    width:300px;
+    background-color: red;
+    transform:rotateZ(90) ;
+    transition-delay: 1s;
+    animation-name: myfirstanimate;
+    animation-duration: 0.25ms;
+    animation-iteration-count: infinite;
+    animation-delay:2s;
+
+}
+@keyframes myfirstanimate {
+    from{background-color: red;}
+    to{background-color: blue;}
+}
+
+
+property:
+animation-direction
+
+values:
+  1.normal
+  2.reverse
+  3.alternate(from to to then to to from)
+  4.alternate re(to to from then from to to)
+
+ Ex:
+   animation-direction: reverse;
+   animation-direction: normal;
+   animation-direction: alternate;
+   animation-direction: alternate reverse;
+
+div{
+    height:300px;
+    width:300px;
+    background-color: red;
+    transform:rotateZ(90) ;
+    transition-delay: 1s;
+    animation-name: myfirstanimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes myfirstanimate {
+    from{background-color: red;}
+
+
+--new keyframe
+  @keyframes myfirstanimate {
+    
+    from{left:0px;}
+    to{left:500px;}
+}
+
+
+--for applying multiple transition using keyframe concept we can write it as follows:
+
+  div{
+    height:300px;
+    width:300px;
+    background-color: red;
+    transform:rotateZ(90) ;
+    transition-delay: 1s;
+    position: absolute;
+    animation-name: myfirstanimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes myfirstanimate {
+    
+    from{left:0px;background-color:red;}
+    to{left:500px;background-color:blue;}
+}
+
+
+@keyframes percentanimate{
+  0%{background-color:blue}
+  50%{background-color:yellow}
+  100%{background-color:red}
+}
