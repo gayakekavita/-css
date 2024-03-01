@@ -1,0 +1,51 @@
+property: 
+position
+
+values:
+1.static
+2.relative
+3.absolute
+4.fixed 
+5.sticky
+
+
+1.static: it is by default.
+
+2.relative:
+   it is relative to itself.
+   it has following values:
+   1.top
+   2.bottom
+   3.right
+   4.left
+ ex:
+ position:relative;
+ top:20px;
+ right:10px;
+
+
+3.absolute:
+  -it is not static .
+  -it sets the position of any html element relative or absolute to its parent element.
+  -Ex:
+    position:absolute;
+    top:20px;
+    right:10px;
+
+
+4.fixed:
+   -it fix the position of html element to fixed position.
+   -Ex:
+     position:fixed:
+     top:10px;
+   -it will set position of html element to the top of the document to 10px;
+   -mostly it is used to create navbar in the websites.
+
+
+5.sticky:
+
+  -it sets the position of any html element to the fixed position even if we scroll the page it will remain fixed at its position.
+  ex:
+  position:sticky;
+  top:10px;
+   
