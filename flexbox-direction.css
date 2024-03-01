@@ -1,0 +1,41 @@
+-flex direction decides how the elements are going to be arranged in the flex container.
+-it has four values:
+ 1.row(left to right)
+      main axis is horizontal.
+      all flex items are placed on the main axis.
+
+2.row-reverse(right-to left):
+    all the flex container items are placed from right to left positions.
+    always all flex containers items fits themselves inside the flex container.
+    They adjust themselves size according to flex container size.
+
+
+3.column(top to bottom):
+   -when we set flex direction to column then its main axis is vertical.
+   it places all the flex items vertically according to the flex container size.
+
+4.column-reverse(bottom-top):
+  -when we set flex direction as column-reverse then it place all the flex container itmes from bottom to top.
+
+
+Ex:
+.container{
+  display:flex;
+  flex-direction:row;
+}
+
+.container{
+  display:flex;
+  flex-direction:row-reverse;
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+}
+
+
+.container{
+  display:flex;
+  flex-direction:column-reverse;
+}
