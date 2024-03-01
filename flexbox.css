@@ -1,0 +1,71 @@
+-it is one dimensinal layout method for arranging items in rows or columns.
+/*
+<html>
+    <head>
+        <title>
+            
+        </title>
+    </head>
+    <body>
+       <header>
+        <!-- header of web page -->
+        <link rel="stylesheet" href="style.css">
+       </header>
+       <main>
+        <!-- main part of the website -->
+        <h1>Flexbox</h1>
+        <div class="container">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+            <div id="box4"></div>
+            <div id="box5"></div>
+        </div>
+        
+       <footer>
+           <!-- Footer of the website-->
+       </footer>
+    </body>
+</html>*/
+
+body{
+    text-align: center;
+}
+.container{
+    height: 50%;
+    width: 60%;
+    border: 2px solid black;
+    display: flex;
+}
+
+#box1{
+    background-color: aqua;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#box2{
+    background-color: aliceblue;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#box3{
+    background-color: bisque;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+
+}
+#box4{
+    background-color: blue;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#box5{
+    background-color: brown;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
