@@ -1,0 +1,45 @@
+-Media queries help to create responsive webpages.
+-It helps websites to be responsive according to the media on which we open the website.
+  Ex:
+  1.Phone
+  2.ipad
+  3.laptop
+  etc.
+
+ex:
+@media(width:600px)
+{
+  div{
+    background-color:red;
+  }
+}
+
+--above query state that if the size of media is equal to 600px then set the background-color of all the div to the 'red'.
+
+--suppose if you want to set color of div green when media size is greater than 600 then we write below query:
+    @media(min-width:600px)
+  {
+    div{
+      background-color:green;
+    }
+  }
+
+
+--suppose if you want to set color of div green when media size less than 600 then we write below query:
+    @media(max-width:600px)
+  {
+    div{
+      background-color:green;
+    }
+  }
+
+
+
+
+--suppose if you want to set  background-color to red when media size varies from 200 px to 300 px then we write below query::
+ 
+@media(min-width:200px) and (max-width:300px){
+  div{
+    background-color:red;
+  }
+}
