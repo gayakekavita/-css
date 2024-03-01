@@ -1,0 +1,25 @@
+-Property:
+  flex-grow:
+  -This property is used to grow the flex items to occupy the empty space available in the flex container.
+  -we can set value to this property using positive values .
+  -we also set this property to individually to the flex items.
+
+
+ex:
+.container{
+  display:flex;
+  height:500px;
+  width:800px;
+  flex-grow:1;
+}
+#box1{
+
+  height:100px;
+  width:500;px
+  flex-grow:0.5;
+}
+
+#box2{
+  height:100px;
+  width:200px;
+}
