@@ -1,0 +1,12 @@
+-Property
+ transition-timing-function
+
+-This property is used to set transition method or in which manner transition will  take place .
+-It has following values::
+  1.steps(int value);
+   ex:
+  transition-timing-function:steps(3);
+   -it will make transtition in a element from one state to other in 3 steps.
+
+ 2.ease-in
+ -When we set transition-timing-function value to 'ease-in' then transition will take place slowly.
