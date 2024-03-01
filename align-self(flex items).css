@@ -1,0 +1,27 @@
+-property:
+   align-self
+
+-This property is used to set position of individual flex items  based on cross axis.
+ - we use this property inside the css of each individual flex item.
+
+-values:
+ 1.flex-start
+ 2.flex-end
+ 3.center
+
+ex:
+.box1{
+
+  background-color:blue;
+  align-self:flex-start;
+}
+.box2{
+
+  background-color:blue;
+  align-self:flex-end;
+}
+.box3{
+
+  background-color:blue;
+  align-self:center;
+}
