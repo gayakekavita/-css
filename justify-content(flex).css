@@ -1,0 +1,39 @@
+-property:
+  justify-content
+
+-values:
+  1.flex-start
+  2.flex-end
+  3.space-around
+  4.space evenly
+  5.space between 
+
+
+1.flex-start:
+  when we set value of justify-content to the flex start then it will place all the flex items from start of the main axis ..
+  ex:
+  justify-content:flex-start;
+
+
+2.flex-end;
+  when we set value of justify-content property to flex-end value then it will place all the flex items to the end of the main axis.
+  ex:
+  justify-content:flex-end;
+
+
+3.space-around:
+when we set value of justify-content to the space-around value then it will occupy the empty space around the items an create space around the items.
+ex:
+ justify-content:space-around;
+
+
+4.space-between:
+when we set value of justify-content to the space-between value then it will occupy the empty space around the items an create space between the items.
+ex:
+ justify-content:space-between;
+
+
+5.space-evenly:
+ when we set value of justify-content to the space-evenly value then it will occupy the empty space around the items an create even amoount of space between the items.
+ex:
+ justify-content:space-evenly;
