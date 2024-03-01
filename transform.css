@@ -1,0 +1,20 @@
+-This property is used to rotate an object.
+-It has following values::
+  1.rotate(degree deg);
+  2.x rotate(degree deg)
+  3.y rotate (degree deg)
+  4. z rotate (degree deg)
+
+Ex:
+div{
+    height:300px;
+    width:300px;
+    background-color: red;
+    transform:rotateZ(90) ;
+    transition-delay: 1s;
+
+}
+div:hover{
+    background-color: blue;
+    
+}
