@@ -1,0 +1,19 @@
+-Property:
+  align-items
+
+values:
+ 1.flex-start
+ 2.flex-end
+ 3.center
+
+-it will align the items of flex based on cross axis in the flex container.
+
+
+property:
+  align-contents
+
+values:
+  1.flex-start
+ 2.flex-end
+ 3.center
+
