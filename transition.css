@@ -1,0 +1,24 @@
+-Transition property in css states the transition of an element from one state to other state.
+-Transition has following properties:
+  1.transition-property
+  2.transition-duration
+  3.transition-timing-function
+  4.transition-delay
+
+Ex:
+div{
+  width:800px;
+  height:500px;
+  background-color:blue;
+  transition-property:all;
+  transition-delay:2s;
+  
+}
+div.hover{
+  background-color:red;
+  color:white;
+}
+div.active{
+  background-color:green;
+  color:white;
+}
