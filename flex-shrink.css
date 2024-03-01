@@ -1,0 +1,16 @@
+-Property:
+  flex-shrink
+
+ -This property is used to shrink the size of flex items of flex container as we have specified.
+ -we can give value as 0,1,2.. n to it .
+-According to its value it shrink the flex items to fit all the flex items into the flex container.
+
+Ex:
+.container{
+
+   height:500px;
+   width:800px;
+   flex-shrink:0.5;
+   display:flex;
+   
+}
