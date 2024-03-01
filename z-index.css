@@ -1,0 +1,14 @@
+property:
+   z-index
+
+
+-by default its  value is 0.
+-when we gives positive value to it according to its value it has priority.
+-if value of z-index is high then it will set html element to top of the document.
+
+-when we gives negative value to z-index property then it will set the html element to bottom of the page.
+-when we set position property value to static then we cannot use z-index property to that particular element.
+
+-ex:
+  position:absolute;
+  z-index:4;
