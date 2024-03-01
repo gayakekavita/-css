@@ -1,0 +1,39 @@
+property:
+background-size
+
+values:
+1.cover
+2.contain
+3.auto
+
+1.cover 
+-when we use this value to background-size property then it will cover all the empty spaces of the webpage or the element in which we want to set the image.
+Ex:
+  body{
+ background-image:url('cat.jpg');
+ background-size:cover;
+}
+
+-it is better to use cover value to background-size property.
+
+
+2.contain:
+ -when we use this value to background-size property then it will repeat the images in the background.
+ -we can avoid to repeat the image as follows:
+   background-repeat:no-repeat;
+
+ ex:
+ body{
+   background-image:url('cat.jpg');
+   background-size:contain;
+   background-repeat:no-repeat;
+ }
+
+3.auto:
+  -when we use this value to background-size property then it will set image as per its actual size.
+  -ex:
+   body{
+      background-image:url('cat.jpg');
+      background-size:auto;
+    
+   }
